@@ -16,7 +16,7 @@ int main() {
     char str[] = "**** * *-** *-** ---  *-- --- *-* *-** -**";
 
     while (fscanf(file, "%c%s%c", &(alf[i].c), alf[i].m, kostil) != EOF) {
-        ..printf("%c %s", alf[i].c, alf[i].m);
+        printf("%c %s", alf[i].c, alf[i].m);
         i++;
     }
     fclose(file);
