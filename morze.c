@@ -12,7 +12,7 @@ int main() {
     morze alf[27];
     int i=0;
  
-    file = fopen("morze2.txt", "r");   
+    file = fopen("morze_linux.txt", "r");   
     while (fscanf(file, "%c%s%*c", &(alf[i].c), alf[i].m) != EOF)
         i++;
     for (int i=0; i<26;i++)
@@ -25,7 +25,7 @@ int main() {
       for (int i=0; i<26;i++){
         if (strcmp(pch, alf[i].m) == 0)
           printf("%c", alf[i].c);
-      }
+      }              // Hi Hi
       pch = strtok (NULL, " ");
     }
     printf("\n");
